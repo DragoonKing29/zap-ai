@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zap AI</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <h1>Zap AI</h1>
+
+    <h2>Weather Information</h2>
+    <form id="weather-form">
+        <input type="text" id="location" placeholder="Enter location">
+        <button type="submit">Get Weather</button>
+    </form>
+    <div id="weather-result"></div>
+
+    <h2>Interactive Weather Map</h2>
+    <div id="map" style="height: 400px;"></div>
+
+    <h2>Chat with Zap AI</h2>
+    <form id="chat-form">
+        <input type="text" id="chat-input" placeholder="Say something...">
+        <button type="submit">Send</button>
+    </form>
+    <div id="chat-result"></div>
+
+    <script src="/static/scripts.js"></script>
+</body>
+</html>
